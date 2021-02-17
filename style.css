@@ -23,3 +23,6 @@ div.about_me {
     max-width: 500px;
     text-align: justify;
 }
+h1 {
+    text-align: center;
+}
