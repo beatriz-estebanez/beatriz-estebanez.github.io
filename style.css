@@ -1,0 +1,25 @@
+#nome {
+    font-family: 'Times New Roman', Times, serif;
+}
+#descricao {
+    font-family: cursive;
+}
+body {
+    background-color: #ffe8d6;
+}
+.palavras-negrito {
+    font-weight: bold;
+}
+.fonte-lighter {
+    font-weight: lighter;
+}
+.tamanho-fonte {
+    font-size: 20px;
+}
+div.about_me {
+    position: relative;
+    bottom: 250px;
+    left: 220px;
+    max-width: 500px;
+    text-align: justify;
+}
