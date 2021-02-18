@@ -1,6 +1,13 @@
 #nome {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
+
+div.name {
+    border-bottom: 1px solid #875a70;
+    margin-bottom: 15px;
+}
+
 #descricao {
     font-family: cursive;
 }
@@ -23,7 +30,7 @@ div.initial {
     max-width: 600px;
     text-align: justify;
     border-bottom: 1px solid #875a70;
-
+    z-index: 1;
 }
 
 div.name {
@@ -39,7 +46,7 @@ div.name {
   
 div.outras_descricoes {
     position: relative;
-    bottom: 150px;
+    bottom: 170px;
 }
 
 div.habilidades, div.redes, div.indice {
@@ -62,7 +69,11 @@ div.minhas_redes {
 
 div.about_me {
     background-color: #875a70;
-    padding: 10px 20px;
+    padding: 1px 20px;
     color: white;
     margin-top: -5px;
+}
+
+p, li {
+    line-height: 22px;
 }
