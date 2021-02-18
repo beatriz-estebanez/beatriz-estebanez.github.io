@@ -5,7 +5,7 @@
     font-family: cursive;
 }
 body {
-    background-color: #ffe8d6;
+    background-color: #96b2cf;
 }
 .palavras-negrito {
     font-weight: bold;
@@ -16,26 +16,47 @@ body {
 .tamanho-fonte {
     font-size: 20px;
 }
-div.about_me {
+div.initial {
     position: relative;
-    bottom: 200px;
+    bottom: 215px;
     left: 240px;
     max-width: 500px;
     text-align: justify;
-    border-bottom: 1px solid #a5a58d;
-    border-top: 1px solid #a5a58d;
+    border-bottom: 1px solid #875a70;
 }
-h1 {
+
+div.name {
+    padding-top: 10px;
     text-align: center;
 }
 #foto {
     border-radius: 100%;
     height: 200px;
     width: 200px;
-    border: 10px solid #a5a58d;
+    border: 10px solid #875a70;
 }
 
-    div.outras_descricoes {
+div.outras_descricoes {
     position: relative;
     bottom: 150px;
+}
+
+div.habilidades, div.redes, div.indice, div.about_me {
+    border-top: 1px solid #875a70;
+    padding-top: 15px;
+    margin-top: -10px;
+    margin-bottom: px;
+}
+
+div.habilidades, div.about_me {
+    padding-top: 5px;
+}
+
+div.total {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.minhas_redes {
+    padding-top: 2px;
 }
