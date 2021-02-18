@@ -59,6 +59,10 @@ div.habilidades {
     padding-top: 5px;
 }
 
+div.habilidades li:nth-child(2n+1){
+    font-style: italic;
+}
+
 div.total {
     padding: 25px;
 }
@@ -77,3 +81,4 @@ div.about_me {
 p, li {
     line-height: 22px;
 }
+
